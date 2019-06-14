@@ -1,0 +1,100 @@
+
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="navbar.css">
+        
+    </head>
+    <body>
+        <header><img src="pictures/giftlogo.png"></header>
+        <div class="nav">
+            <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">USER</a></li>
+           </ul>
+            
+                    <button id="logout">Logout</button>
+                    <div class="user-boy"></div>
+                    
+
+            
+                  
+        </div>
+
+        <div>
+            <input type="Text1" id="namer"   placeholder="Product">
+            <input type="Number" id="pricer"   placeholder="Price">
+            <input type="Text2" id="deliver"   placeholder="Delivery mode">
+            <button onclick="addToCart()" id= "btn1">Click</button>
+        </div>
+
+        <input type=button id="chatBtn" value=Chat>
+
+        <div class="products">
+            <ul>
+                <li>
+                        <div class="product"></div>
+                        <a href="#" class="img"><img src="val1.jpeg"/></a>
+                        <a href="#" class="name">OYIN</a>
+                        <div>50000</div>
+                        <a href="#" class="cart">Add Cart</a>
+                        <span>326</span>
+                    </li>
+                <li><div class="product"></div>
+                    <a href="#" class="img"><img src="val2.jpeg"/></a>
+                    <a href="#" class="name">BLESSING</a>
+                        <div>60000</div>
+                        <a href="#" class="cart">Add Cart</a>
+                        <span>326</span>
+                <li>
+                        <div class="product"></div>
+                        <a href="#" class="img"><img src="val3.jpeg"/></a>
+                        <a href="#" class="name">SUCCESS</a>
+                        <div>50000</div>
+                        <a href="#" class="cart">Add Cart</a>
+                        <span>326</span>
+                </li>
+                <li>
+                        <div class="product"></div>
+                        <a href="#" class="img"><img src="val4.jpeg"/></a>
+                        <a href="#" class="name">IBUKUN</a>
+                        <div>59500</div>
+                        <a href="#" class="cart">Add Cart</a>
+                        <span>326</span>
+                </li>
+                               
+            </ul>
+        </div>
+        
+        <div id="dad">
+
+            <div>
+                "user: "
+                <span id="user"><br></span>
+            </div>
+            <div>
+                "chatbot: "
+                <span id="chatbot"><br></span>
+            </div>
+            <div>
+                <input id="input" type="text" placeholder="let's chat....." autocomplete="off">
+                <input type="button" value="Send" id="submit"/>
+            </div>
+        </div>
+
+        <script src="navbar.js"></script>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>

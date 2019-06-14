@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    background-image: url("brownpic.jpg");
+    background-size: cover;
+}
+.user-boy{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color: red
+}
+
+
+.nav {
+    width: 100%;
+    height: 100px;
+    background: #000033;
+    margin-top: 100px;
+
+  }
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li {
+    float: left;
+    margin-top: 30px;
+}
+
+a {
+    width: 150px;
+    color: white;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+a:hover {
+    background: #669900;
+    transition: 0.6s;
+}
+
+.products {
+    width: 100px;
+    display: table;
+    margin: auto;
+    text-align: center;
+}
+
+.products ul, .products ul li {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.products ul {
+    width: 100%;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.products ul li {
+    width:25%;
+    margin-bottom: 10px;
+}
+
+.products ul li .product {
+    width: 90%;
+    margin-left: 5%;
+}
+.logout{
+    right: 0;
+}
+
+#dad {
+    margin: 20px auto;
+    padding: 25px;
+    height: 600px;
+    width: 500px;
+    min-width:390px;
+    border: solid black;
+    border-color: blue;
+    box-shadow: 0 3px red;
+    border-radius: 30px;
+    border-inline-color: red;
+    display: none;
+}
+
+#user {
+    padding: 15px;
+    width: 70px;
+    height: 450px;
+    margin: 5px 10px 0;
+    background: #1ddced;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Franklin Gothic';
+    order: -1;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+
+#chatbot {
+    padding: 15px;
+    width: 70px;
+    height: 450px;
+    margin: 5px 10px 0;
+    background: yellow;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#input {
+    width: 300px;
+    height:45px;
+    border-radius: 40px;
+    
+}
+
+#submit {
+    border: 1px solid lightpink;
+    padding: 10px 20px;
+    background: none;
+    font-size: 20px;
+    border-radius: 40px;
+    
+}
+
+#submit:hover{
+    background: royalblue;
+    transition: 0.8s
+
+}
